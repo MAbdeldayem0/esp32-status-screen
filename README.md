@@ -2,7 +2,7 @@
 
 A real-time status display built with an ESP32 microcontroller and TFT screen. Shows time, weather, stock prices, mountain bike trail conditions, and IoT device statuses.
 
-![Status Screen Display](images/IMG_5475.jpeg)
+<img src="images/IMG_5475.jpeg" width="400">
 
 ## Features
 
