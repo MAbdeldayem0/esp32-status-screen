@@ -1,17 +1,23 @@
 # ESP32 Status Screen
 
-A real-time status display built with an ESP32 microcontroller and TFT screen. Shows time, weather, stock prices, and various IoT device statuses.
+A real-time status display built with an ESP32 microcontroller and TFT screen. Shows time, weather, stock prices, mountain bike trail conditions, and IoT device statuses.
 
 ## Features
 
-- Real-time clock with NTP synchronization
-- Weather display with forecasts
-- Stock price tracking (via Alpha Vantage API)
-- Coffee machine status monitoring
-- Trail status updates
-- 3D printer status
+- **Real-time clock** with NTP synchronization
+- **Weather display** with current conditions and forecasts
+- **Stock price tracking** via Alpha Vantage API
+- **MTB Trail Status Monitor** - Live status for local mountain bike trails:
+  - Momba Trail
+  - John Bryan Trail
+  - Caesar Creek Trail
+  - Color-coded status indicators (green=open, red=closed, yellow=wet/caution)
+  - Last update timestamps
+- **Coffee machine status** monitoring
+- **3D printer status** (Sovol)
 - Colorblind-friendly UI with high contrast colors
 - Portrait and landscape mode support
+- Demo mode for offline testing
 
 ## Hardware
 
